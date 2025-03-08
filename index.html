@@ -9,10 +9,11 @@
 </head>
 <body>
     <!-- Button trigger modal -->
+    <h1 class="head1">Sign up for free netflix subscribtion !!</h1>
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
         Sign Up
       </button>
-    
+
   
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -21,19 +22,28 @@
         <div class="modal-body">
           <div class="column" id="main">
             <h1>Sign Up </h1>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+            
+            <h3>🔥 Limited Free Subscriptions Available!</h3>
+            <p id="counter">Only 50 left!</p>
+            <p id="message"></p>
             <form>
               <div class="form-group">
-                <label for="exampleInputName">Name</label>
-                <input type="name" class="form-control" id="exampleInputName" placeholder="Name">
+                <label for="exampleInputName">Identify Yourself</label>
+                <input type="name" class="form-control" id="exampleInputName" >
               </div>
               <div class="form-group">
-                <label for="exampleInputEmail1">E-mail </label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
+                <label for="exampleInputEmail1">How do i find you? </label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" >
               </div>
               <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <label for="exampleInputPassword1">What the magic words for setup?</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" >
+              </div>
+              <div class="form-group">
+                <label>
+                    <input type="checkbox" checked>
+                    <strong>We may contact you about services you may like unless you uncheck to opt out </strong>
+                  </label>
               </div>
               <button type="submit" class="btn btn-primary">Sign Up</button>
             </form>
@@ -41,7 +51,7 @@
           <div>
             <?xml version="1.0" encoding="UTF-8"?>
             <svg width="67px" height="578px" viewBox="0 0 67 578" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+                
                 <title>Path</title>
                 <desc>Created with Sketch.</desc>
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -64,6 +74,6 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  
+  <script src="script.js"></script>
 </body>
 </html>
